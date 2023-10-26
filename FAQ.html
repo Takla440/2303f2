@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shrek Juices</title>
+  <!-- favicon link  -->
+  <link rel="shortcut icon" href="images/feature-icon/fav icon (2).png" type="image/x-icon">
+
+  <!-- lightbox pupup link -->
+  <link rel="stylesheet" href="CSS/lightbox.css">
+
+  <!-- bootstrap link  -->
+  <link rel="stylesheet" href="./bootstrap-5.3.1-dist/css/bootstrap.min.css">
+
+
+  <!-- font awesome link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- 1st owl carousel links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- 2nd owl carousel links -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- cutomize link of css -->
+  <link rel="stylesheet" href="CSS/style.css">
+
+  <!-- customize link of responsive css  -->
+  <link rel="stylesheet" href="CSS/reponsive-style.css">
+
+
+<!-- code icon link  -->
+  <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+
+
+</head>
+<body class="FAQ">
+
+
+
+  <!-- NAVBAR START  -->
+  <header id="full_nav">
+    <div class="header">
+      <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand " href="index.html"><img src="images/logo.png" class="logo" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto ">
+              <li class="nav-item ">
+                <a class="nav-link   fw-semibold" aria-current="page" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item ">
+                <a class="nav-link  fw-semibold " href="about.html">About us</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link  fw-semibold " href="menu.html">Menu</a>
+              </li>
+
+         
+              <li class="nav-item ">
+                <a class="nav-link  " href="Gallery.html">Gallery</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link   fw-semibold " href="catering.html">Catering</a>
+              </li>
+
+            
+
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Location
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-success fs-3" href="store-location.html">Store Location</a></li>
+                  <li><a class="dropdown-item text-success fs-3" href="franchising.html">Franchises</a></li>
+                  
+                </ul>
+              </li>
+
+
+              
+              
+              <li class="nav-item ">
+                <a class="nav-link   fw-semibold " href="feedback.html">Feedback</a>
+              </li>
+              
+              <li class="nav-item ">
+                <a class="nav-link   fw-semibold " href="contact.html">Contact us</a>
+              </li>
+              
+              
+              <li class="nav-item ">
+                <a class="nav-link active fw-semibold " href="FAQ.html">FAQ</a>
+              </li>
+              
+
+
+            </ul>
+
+
+            <ul class="navbar-nav ms-auto ">
+              <!-- 1st modal  -->
+              <!-- Modal searchbar -->
+              <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true ">
+                <div class="modal-dialog">
+                  <div class="modal-content ">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5 text-success" id=" exampleModalLabel">Start typing and hit the button to
+                        search
+                        any kind of drink u would like to take:-</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search here" aria-label="Search">
+                        <button class="btn btn-outline-light py-2 px-5" type="submit">Search</button>
+                      </form>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-light py-2 px-5" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- modal end -->
+
+              <!-- Button trigger modal -->
+              <li><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal1" class="font-link">
+                  <i class="fa-solid fa-magnifying-glass mx-2 fw-semibold"></i></a></li>
+
+              
+
+              <!-- 2nd modal  -->
+              <!-- Modal (tracking) -->
+              <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true ">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5 text-success" id="exampleModalLabel">Tracking Your Product</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Insert Your Tracking ID" aria-label="Search">
+                        <button class="btn btn-outline-success py-2 px-5" type="submit">Search</button>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary py-2 px-5" data-bs-dismiss="modal">Close</button>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- modal end -->
+
+              <!-- tigger modal  -->
+              <li><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal3" class="font-link">
+                <i class="fa-solid fa-truck-fast" style="color: #ffffff;"></i></a></li>
+         
+
+            <!-- 3rd modal  -->
+              <!-- Modal (user) -->
+              <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true ">
+                <div class="modal-dialog ">
+                  <div class="modal-content">
+                    <div class="modal-header ">
+                      <h1 class="modal-title fs-3" id="exampleModalLabel">Create an account and login for
+                        better experience</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <!-- making Session of singup -->
+                      <!-- making Session of singup -->
+                      <div class="container">
+                        <div class="con1">
+                          <hr>
+                          <div class="a d-flex justify-content-center">
+                            <h6> Sign Up</h6>
+                          </div>
+                          <hr>
+
+                          <div class="d-flex justify-content-center flex-column align-items-center">
+
+                            <input type="text" id="name" placeholder="Username">
+                            
+                            <input type="password" id="pass" placeholder="Password">
+                            <div>
+                              <button id="btn">Sign up</button>
+                            </div>
+                          </div>
+
+                        </div>
+
+                        <div class="con2">
+                          <hr>
+                          <div class="b  d-flex justify-content-center">
+                            <h6>Login</h6>
+                          </div>
+                          <hr>
+                          <div class="d-flex justify-content-center flex-column align-items-center">
+                          <input type="text" id="loginname" placeholder="Username">
+                          <input type="password" id="loginpass" placeholder="Password">
+                          <div class="side fs-4  ms-4">
+                            <label for="show"> Show Password</label>
+                            <input type="checkbox" id="show">
+                          </div>
+                          <button id="btn2" class="btn  mt-4">Login</button>
+                        </div>
+
+                          <p id="wrong"></p>
+                          <p id="correct"></p>
+
+                        </div>
+
+
+
+
+
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- modal end -->
+              <!-- tigger modal  -->
+              <li><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal5" class="font-link">
+                  <i class="fa-regular fa-user mx-2 fw-semibold"></i></a></li>
+            </ul>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+  </header>
+<!-- nAVBAR END  -->
+
+
+
+<!-- Back to top button -->
+<button
+        type="button"
+        class="btn btn-danger btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+
+
+
+<!-- banner start  -->
+<section class="banner_section">
+  <div class="container">
+    <div class="carousel-caption-pg">
+      <h1>FAQ</h1>
+    </div>
+</div>
+</section>
+<!-- banner end   -->
+
+
+
+
+<section class="faq_section">
+  <div class="container">
+    <div class="row justify-content-center">
+
+      <div class="col-xl-5 col-6 col-sm-8">
+        <div class="about-content-about ">
+          <h1 class="text-center">Frequently Ask Questions:</h1>   
+           
+            <p class="text-center faq-para"> No matter how much information you put out there, some aquestions will always remain. we are looking forward to help you out.However, before reaching out to us please check the below list of most frequently asked questions. This will give us more time to answer specifics and it saves you time waiting for our reply.
+          </p>
+      </div>
+    </div>
+  </div>
+ </section>
+
+
+
+
+
+
+
+
+<!-- FAQ  -->
+<div class="container my-5 d-flex justify-content-center Faq">
+
+<div class="accordion " id="accordionExample">
+  <div class="accordion-item ">
+    <h2 class="accordion-header">
+      <button class="accordion-button text-white fw-semibold " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Question #1: What are some fun facts about juice? 
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body text-white">
+        Juice emerged as a popular beverage choice after the development of pasteurization methods enabled its preservation without using fermentation (which is used in wine production). The largest fruit juice consumers are New Zealand and Colombia. Fruit juice consumption on average increases with country income level.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed text-white fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Question #2: Why is it called juice? 
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body text-white">
+        The word "juice" comes from Old French in about 1300; it developed from the Old French words "jus, juis, jouis", which mean "liquid obtained by boiling herbs".
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed text-white  fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Question #3: What is the purpose of juice?  
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body text-white">
+        Potential Health Benefits of Juicing
+
+        By drinking juice, your body can absorb nutrients quickly, without having to digest fibers and other components in whole foods. Moreover, it helps you get a larger intake of vitamins and minerals—more so than you may be getting in your regular diet
+      </div>
+    </div>
+  </div>
+  
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- FOOTER START  -->
+ <footer class="footer-section">
+  <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <div class="cta-text">
+                          <h4>Find us</h4>
+                          <span>1010 Avenue, sw 54321,Karachi, Paikstan</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-phone"></i>
+                      <div class="cta-text">
+                          <h4>Call us</h4>
+                          <span>+9876543210 0</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="far fa-envelope-open"></i>
+                      <div class="cta-text">
+                          <h4>Mail us</h4>
+                          <span><a class="text-white" href="mailto:shrekmail@info.com">shrekmail@info.com</a></span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-content pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-logo">
+                          <a href="index.html"><img src="images/logo.png" class="img-fluid" alt="logo"></a>
+                      </div>
+                      <div class="footer-text">
+                          <p> Dive into the exciting world of juices, smoothies, mocktails, and protein shakes. Discover new delicious, healthy and refreshing flavors to tickle your taste buds!</p>
+                      </div>
+                      <div class="footer-social-icon">
+                          <span>Follow us</span>
+                          <a href="https://www.facebook.com/login.php/" target="_blank"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                          <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"  target="_blank"><i class="fab fa-twitter twitter-bg"></i></a>
+                          <a href="https://accounts.google.com/InteractiveLogin/signinchooser?elo=1&ifkv=AXo7B7UeXySySSaER3oQOi5J8vluQo4bCK6-1whWUG0HgpaXPDnG9okiCce0lFf-CO0L3whwC95DIg&flowName=GlifWebSignIn&flowEntry=ServiceLogin"  target="_blank"><i class="fab fa-google-plus-g google-bg"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Quick Links</h3>
+                      </div>
+                      <ul>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="about.html">About us</a></li>
+                          <li><a href="menu.html">Menu</a></li>
+                          <li><a href="Gallery.html">Gallery</a></li>
+                          <li><a href="catering.html">catering</a></li>
+                          <li><a href="contact.html">Contact us</a></li>
+                          <li><a href="franchising.html">Franchises</a></li>
+                          <li><a href="store-location.html">Store Location</a></li>
+                          <li><a href="feedback.html">feedback</a></li>
+                          <li><a href="FAQ.html">FAQ</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Subscribe</h3>
+                      </div>
+                      <div class="footer-text mb-25">
+                          <p>Don't miss to subscribe to our new feeds, kindly fill the Email address  below to get our few feeds.</p>
+                      </div>
+                      <div class="subscribe-form">
+                          <form action="#">
+                              <input type="email" placeholder="Email Address">
+                              <button><i class="fab fa-telegram-plane"></i></button>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="copyright-area">
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-12 col-lg-12 text-center text-lg-left">
+                  <div class="copyright-text">
+                      <p class="fw-semibold">Copyright &copy; 2023,<a href="">Tayyaba Ajaz</a> All Right Reserved </a></p>
+                  </div>
+              </div>
+            
+          </div>
+      </div>
+  </div>
+</footer>
+<!-- FOOTER end  -->
+
+  
+  <!-- jquery link  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+  integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <!-- lightbox pupup link  -->
+  <script src="JS/lightbox.js"></script>
+  
+  <!-- bootstrap link of js -->
+  <script src="/bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+  
+  
+  <!-- customize js link -->
+  <script src="JS/function.js"></script>
+
+
+    <!-- customize js link -->
+    <script src="JS/modal.js"></script>
+  
+  <!-- owl carousel link  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+  integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
